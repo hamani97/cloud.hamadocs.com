@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&display=swap&subset=korean');
+
+body {
+	font-family:'Noto Sans KR', 'Roboto', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	line-height:26px;
+	color:#303030;
+	letter-spacing: -0.3px;
+	scrollbar-face-color:#aaaaaa;
+	scrollbar-shadow-color:#E5E5E5;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-3dlight-color:#ffffff; 
+	scrollbar-darkshadow-color:#CCCCCC;
+	scrollbar-track-color:#EEEEEE; 
+	scrollbar-arrow-color:#999999;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/*
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+*/
+
+footer { padding:30px 0; font-size:15px; color:#444; }
+footer h4 { color:#e3e3e3; font-size:19px; font-weight:500; padding-bottom:12px; margin-bottom:12px; border-bottom:1px solid #4c4c4c; }
+footer .link { color:#d5d5d5; cursor:pointer; line-height:29px; }
+footer .link:hover { color:#d1d1d1; }
+footer .title { color:#9f9f9f; padding-right:5px; }
+footer .data  { color:#838383; }
+footer .sep { color:#4c4c4c; padding:0 5px; }
+footer .copy { color:#d0d0d0; padding-top:10px; }
